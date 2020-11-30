@@ -3,19 +3,19 @@ function gettingJSON(){
     // Your code here.
 
     //Set default location if one isn't provided
-    let location;
+    let location = document.querySelector(#location).value = 'Ann Arbor';
 
     // Your code here.
     console.log("Location is : " + location);
 
     //set default temperature format if one isn't provided
-    let fomat;
+    let format = document.querySelector(#fahrenheit).value = 'fahrenheit';
 
     // Your code here.
     console.log("Format is " + format);
 
     //set the query  
-    let query;
+    let query = api.openweathermap.org/data/2.5/weather?q={city name},{country code}&appid=3eb43ddbfe8c125b381e410b1f9aaf13;
     // Your code here.  
     
     console.log("Query is :" + query);
