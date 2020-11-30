@@ -9,13 +9,13 @@ function gettingJSON(){
     console.log("Location is : " + location);
 
     //set default temperature format if one isn't provided
-    let format = document.querySelector(#fahrenheit).value = 'fahrenheit';
+    let format = document.querySelector(#fahrenheit).value = 'imperial';
 
     // Your code here.
     console.log("Format is " + format);
 
     //set the query  
-    let query = 'api.openweathermap.org/data/2.5/weather?q={city name},{country code}&appid=3eb43ddbfe8c125b381e410b1f9aaf13';
+    let query = 'api.openweathermap.org/data/2.5/weather?q='+location+'&units='+format+'&appid=3eb43ddbfe8c125b381e410b1f9aaf13';
     // Your code here.  
     
     console.log("Query is :" + query);
