@@ -3,13 +3,13 @@ function gettingJSON(){
     // Your code here.
 
     //Set default location if one isn't provided
-    let location = document.querySelector(#location).value = 'Ann Arbor';
+    let location = document.querySelector('#location').value = 'Ann Arbor';
 
     // Your code here.
     console.log("Location is : " + location);
 
     //set default temperature format if one isn't provided
-    let format = document.querySelector(#fahrenheit).value = 'imperial';
+    let format = document.querySelector('#fahrenheit').value = 'imperial';
 
     // Your code here.
     console.log("Format is " + format);
@@ -24,9 +24,9 @@ function gettingJSON(){
     //need to update, location, highs and lows, 
     //the image, etc.
 
-    let loc;
-    let temp;
-    let tempImg;
+    let loc = document.querySelector('#loc');
+    let temp = document.querySelector('#temp); 
+    let tempImg = document.querySelector('#tempImg');
     // Your code here.
 
 
