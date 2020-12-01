@@ -39,7 +39,7 @@ function gettingJSON(){
         location.innerHTML = json.name;
         temp.innerHTML = json['main'].temp+' with '+json['weather'][0]['description'];
         tempImg.setAttribute('alt', json['weather'][0]['description']);
-        tempImg.setAttribute('src', 'http://api.openweathermap.org/img/wn/' +json['weather'][0]['icon'] +'.png';
+        tempImg.setAttribute('src', 'http://api.openweathermap.org/img/wn/' +json['weather'][0]['icon'] +'.png');
         document.querySelector('#forecast').style.display = 'block';
         
         //Use returned json to update the values of the three 
