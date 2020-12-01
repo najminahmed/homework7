@@ -36,7 +36,7 @@ function gettingJSON(){
 
     $.getJSON(query,function(json){
         console.log(JSON.stringify(json));
-        location.innerHTML = json.name;
+        loc.innerHTML = json.name;
         temp.innerHTML = json['main'].temp+' with '+json['weather'][0]['description'];
         tempImg.setAttribute('alt', json['weather'][0]['description']);
         tempImg.setAttribute('src', 'https://openweathermap.org/img/wn/' +json['weather'][0]['icon'] +'.png');
