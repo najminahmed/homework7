@@ -29,7 +29,7 @@ function gettingJSON(){
     //the image, etc.
 
     let loc = document.querySelector('#loc');
-    let temp = document.querySelector('#temp); 
+    let temp = document.querySelector('#temp'); 
     let tempImg = document.querySelector('#tempImg');
     // Your code here.
 
